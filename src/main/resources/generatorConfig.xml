@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <classPathEntry location="D:\softwareInstall\maven\repository\mysql\mysql-connector-java\5.1.38\mysql-connector-java-5.1.38.jar"/>
+    <context id="context1" targetRuntime="MyBatis3">
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://rds72i9r6214woyiuq81public.mysql.rds.aliyuncs.com:3306/apinji_test?characterEncoding=UTF-8"
+                userId="apinji" password="Apin2016"></jdbcConnection>
+        <javaModelGenerator targetPackage="com.apin.user.service.po" targetProject="E:\test\src\main\java"/>
+        <sqlMapGenerator targetPackage="com.apin.user.service.dao" targetProject="E:\test\src\main\java" />
+        <javaClientGenerator targetPackage="com.apin.user.service.dao" targetProject="E:\test\src\main\java" type="XMLMAPPER" />
+        <table schema="" tableName="apin_client"></table>
+    </context>
+</generatorConfiguration>
