@@ -1,0 +1,2 @@
+运行命令如下：
+mvn mybatis-generator:generate
